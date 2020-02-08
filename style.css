@@ -1,0 +1,194 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    width: 100%;
+    padding-bottom: 600px;
+	background: url(img/img_face.jpg) no-repeat;
+}
+
+.header-container {
+    display: flex;
+	width: 90%;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.header-container a { 
+    padding: 10px 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+.header-container a:hover { 
+	border-bottom: 1px black solid;
+}
+
+.top-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.top-container h2 {
+	margin-top: 215px;
+	font-size: 90px;
+    color: #4d4d4d;
+}
+
+.top-container p {
+	font-size: 22px;  
+    color: #9b9b9b;
+}
+
+.top-container .know-more {
+    padding: 20px 30px;
+    margin-top: 33px;
+    margin-right: 20px;
+    font-size: 14px;
+	color: #4d4d4d;
+	border: 1px solid #4d4d4d;
+	cursor: pointer;
+}
+
+.top-container .know-more:hover {
+	background: #fff;
+	border: none;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+.top-container .hire-me {
+    padding: 20px 47px;
+    margin-top: 33px;
+    font-size: 14px;
+    color: #4d4d4d;
+	border: 1px solid #4d4d4d;
+	cursor: pointer;
+}
+
+.top-container .hire-me:hover {
+	background: #fff;
+	border: none;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    padding-top: 20px;
+    font-size: 10px;
+}
+
+.socials {
+	display: -webkit-inline-box;
+	margin-top: 20px;
+}
+
+.icon {
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.about-container {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 125px;
+	margin-top: -150px;
+}
+
+.about-me h2 {
+	font-size: 46px;
+	color: #4d4d4d;
+	letter-spacing: 8px;
+}
+
+.about-me p {
+	font-size: 18px;
+}
+
+.about-container .download {
+    padding: 21px 37px;
+    margin-top: 33px;
+    color: #4d4d4d;
+    font-size: 14px;
+    background: #ffffff;
+	border: 1px solid #4d4d4d;
+	cursor: pointer;
+}
+
+.about-container hr {
+    height: 4px;
+	width: 60px;
+	margin-bottom: 21px;
+	border: none; 
+    background-color: #7a7a7a; 
+}
+
+.about-container .me-photo {
+	margin-left: 105px;
+}
+
+.skils-container h2 {
+    text-align: center;
+	font-size: 46px;
+	color: #4d4d4d;
+    letter-spacing: 8px;
+}
+
+.slills {
+    width: 60%;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.skills-list {
+    margin: 0;
+    padding: 0;
+}
+
+.skills-list dt {
+    padding-left: 32px;
+    background-repeat: no-repeat;
+    background-position: left;
+} 
+
+.level {
+    margin: 6px 0px 16px;
+    padding: 0;
+    height: 25px;
+    font-size: 0;
+    background-color: #ffffff;
+    border: 1px solid #808080;
+}
+      
+.level div {
+    margin: 1px;
+    height: 23px;
+    background-color: #808080;
+}
+
+footer {
+    margin-top: 150px;
+    width: 100%;
+    background-color: #DCDCDC;
+}
+
+.contact-container h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 26px;
+	color: #4d4d4d;
+    letter-spacing: 8px;
+}
+
+.contact-container p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.contact-container .socials {
+    margin-left: 44%;
+}
